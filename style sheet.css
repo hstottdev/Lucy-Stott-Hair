@@ -1,0 +1,130 @@
+﻿.tenor-sans-regular {
+    font-family: "Tenor Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Tenor Sans", sans-serif;
+    color: black;
+    background-color: #c2b7af;
+    margin: 0px 0px;
+}
+
+header {
+    
+}
+
+#home-page-header {
+    position:fixed;
+    top: 0px;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e2d5cc;
+}
+
+#home-page-header a {
+    text-decoration: none;
+}
+
+#home-page-header i {
+    font-size: 4vh;
+    color: #000000e5;
+    margin: 0vh 1vh;
+}
+
+#home-page-header i:hover {
+    color: #00000085;
+}
+
+#home-page-header > *{
+    margin: 2vh 3vh 2vh 3vh;
+}
+
+#side-bar {
+    padding: 10vh 0vh 0vh 2vh;
+    position: fixed;
+    right: 0;
+    background-color: #d3c7bf;
+    width: 30vh;
+    height: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#side-bar.sidebar-closed {
+    transform: translateX(35vh);
+}
+
+#side-bar-toggle {
+    cursor: pointer;
+}
+
+#side-bar a {
+    width: 90%;
+    background-color: #e2d5cc;
+    border: 0.5vh solid #00000000;
+    border-radius: 2vh;
+    display:flex;
+    justify-content:center;
+    margin: 1vh 0vh 1vh 0vh;
+    text-decoration:none;
+}
+
+#side-bar a:hover {
+    border: 0.5vh solid #00000040;
+}
+
+#side-bar h3 {
+    font-size: 2vh;
+    color: #00000085;
+}
+
+#logo-banner {
+    background-color: #c2b7af;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15vh 0vh 5vh 0vh;
+}
+
+#logo-banner img {
+    max-width: 75vw;
+    max-height: 20vh;
+
+}
+
+#landing-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0vh 5vh 0vh;
+    background-color: #9b928c;
+}
+
+
+#landing-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+#landing-buttons img {
+    height: 60vh;
+    border-radius: 5vw;
+    margin: 1vh 1vh;
+}
+
+.gallery{
+    width:70vw;
+    display:flex;
+    overflow-x:scroll;
+    overflow-y:hidden;
+}
+
+
