@@ -66,14 +66,18 @@ header {
 }
 
 #side-bar a {
+
+}
+
+.button {
     width: 90%;
     background-color: #e2d5cc;
     border: 0.5vh solid #00000000;
     border-radius: 2vh;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     margin: 1vh 0vh 1vh 0vh;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 #side-bar a:hover {
@@ -114,12 +118,32 @@ header {
     justify-content:center;
 }
 
+#landing-buttons a{
+    position:relative;
+}
+
+#landing-buttons a:hover img{
+    border: 0.5vh solid #00000040;
+}
+
 #landing-buttons img {
     height: 60vh;
+    width: 40vh;
     border-radius: 5vw;
+    border: 0.5vh solid #00000000;
     margin: 1vh 1vh;
 }
 
+#landing-buttons .button {
+    width: 30vh;
+    font-size: 3vh;
+    font-weight:bold;
+    padding: 1vh 1vh;
+    position: absolute;
+    z-index: 1;
+    top: 78%;
+    left: 12%;
+}
 .gallery{
     width:70vw;
     display:flex;
