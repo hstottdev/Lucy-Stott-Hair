@@ -22,20 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "style sheet.css",
-              "DocumentMoniker": "C:\\Users\\harry\\Desktop\\Websites\\Lucy-Stott-Hair\\style sheet.css",
-              "RelativeDocumentMoniker": "style sheet.css",
-              "ToolTip": "C:\\Users\\harry\\Desktop\\Websites\\Lucy-Stott-Hair\\style sheet.css",
-              "RelativeToolTip": "style sheet.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-28T17:49:22.217Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -52,13 +43,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style sheet.css",
+              "DocumentMoniker": "C:\\Users\\harry\\Desktop\\Websites\\Lucy-Stott-Hair\\style sheet.css",
+              "RelativeDocumentMoniker": "style sheet.css",
+              "ToolTip": "C:\\Users\\harry\\Desktop\\Websites\\Lucy-Stott-Hair\\style sheet.css",
+              "RelativeToolTip": "style sheet.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-28T17:49:22.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\harry\\Desktop\\Websites\\Lucy-Stott-Hair\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\harry\\Desktop\\Websites\\Lucy-Stott-Hair\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAYwNQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-02-28T17:49:22.049Z",
               "EditorCaption": ""

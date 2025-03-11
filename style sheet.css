@@ -4,6 +4,10 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Tenor Sans", sans-serif;
     color: black;
@@ -41,6 +45,10 @@ header {
 
 #home-page-header > *{
     margin: 2vh 3vh 2vh 3vh;
+}
+
+#home-page-header img {
+    width: 4vh;
 }
 
 #side-bar {
@@ -138,17 +146,58 @@ header {
     width: 30vh;
     font-size: 3vh;
     font-weight:bold;
-    padding: 1vh 1vh;
     position: absolute;
     z-index: 1;
     top: 78%;
     left: 12%;
+    color: black;
+}
+
+.page-section{
+    padding: 2vh 2vh;
+    margin: 3vw;
 }
 .gallery{
     width:70vw;
     display:flex;
     overflow-x:scroll;
     overflow-y:hidden;
+}
+
+table {
+    border-spacing: 2vh;
+    font-size: 2vh;
+    border: 1vh solid #9b928c;
+    background-color: #e2d5cc;
+    color: #5b5450;
+}
+
+table th{
+    text-align: left;
+    padding-right: 3vw;
+}
+
+table td {
+    text-align: center;
+}
+
+#tiktok .tiktok-embed{
+    border-radius: 3vh;
+    margin-left: 1vh;
+}
+
+.hair-pics{
+    width:100%;
+    display:flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.hair-pics img{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 1vh;
+    margin: 0vh 1vw;
 }
 
 
