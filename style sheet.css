@@ -135,21 +135,25 @@ header {
 }
 
 #landing-buttons img {
-    height: 60vh;
-    width: 40vh;
-    border-radius: 5vw;
+    height: 40vh;
+    max-height: 60vw;
+    width: 25vh;
+    max-width: 40vw;
+    border-radius: 3vh;
     border: 0.5vh solid #00000000;
     margin: 1vh 1vh;
 }
 
 #landing-buttons .button {
-    width: 30vh;
-    font-size: 3vh;
-    font-weight:bold;
+    width: 20vh;
+    max-width: 34vw;
+    font-size: 1.8vh;
+    font-weight: bold;
     position: absolute;
     z-index: 1;
-    top: 78%;
-    left: 12%;
+    bottom: 3vh;
+    right: 10%;
+    left: 10%;
     color: black;
 }
 
@@ -157,11 +161,47 @@ header {
     padding: 2vh 2vh;
     margin: 3vw;
 }
+
+.page-section h1 {
+    color: #45403c;
+    font-size: 4vh;
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
 .gallery{
     width:70vw;
     display:flex;
     overflow-x:scroll;
     overflow-y:hidden;
+}
+
+#about-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3c7bf;
+    padding: 2vh 1vh;
+    margin-right: 2vh;
+    border: 0.5vh solid #9b928c;
+    border-radius: 2vh;
+}
+
+#about-section img {
+    height: 50vh;
+    max-height: 80vw;
+    border-radius: 3vh;
+    box-shadow: #45403c 1vh 1vh;
+}
+
+#about p {
+    max-width: 60vw;
+    margin-left: 3vw;
+    font-size: 2.5vh;
 }
 
 table {
@@ -198,6 +238,13 @@ table td {
     height: 40vh;
     border-radius: 1vh;
     margin: 0vh 1vw;
+}
+
+.center-block{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 
