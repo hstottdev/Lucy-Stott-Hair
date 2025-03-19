@@ -114,7 +114,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5vh 0vh 5vh 0vh;
+    padding: 0vh 0vh 5vh 0vh;
 }
 
 
@@ -181,9 +181,11 @@ header {
     color: #45403c;
     font-size: 4vh;
     margin: auto;
+    margin-bottom: 1vh;
     width: 90vw;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .gallery{
@@ -192,6 +194,7 @@ header {
     overflow-x:scroll;
     overflow-y:hidden;
 }
+
 
 .about-section {
     width: 100%;
@@ -208,8 +211,8 @@ header {
 }
 
 .about-section img {
-    height: 50vh;
-    max-height: 80vw;
+    min-height: 20vw;
+    height: 35vh;
     border-radius: 3vh;
     box-shadow: #45403c 1vh 1vh;
 }
@@ -217,11 +220,16 @@ header {
 .about-section p {
     max-width: 65vw;
     margin-left: 3vw;
-    font-size: 2.2vh;
+    font-size: 3vw;
+}
+@media screen and (min-width: 900px) {
+    .about-section p {
+        font-size: 27px;
+    }
 }
 
 .about-section big {
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 
 table {
@@ -266,5 +274,4 @@ table td {
     flex-direction:column;
     align-items:center;
 }
-
 
