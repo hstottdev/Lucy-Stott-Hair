@@ -210,6 +210,21 @@ header {
     border-radius: 2vh;
 }
 
+#about .about-section {
+    background-image: url("assets/about background.jpg");
+    background-size: 100%;
+
+    font-weight: bold;
+    color: #191614be;
+}
+
+.team.about-section {
+    background-image: url("assets/team background.jpg");
+    background-size: 100%;
+    font-weight: bold;
+    color: #191614be;
+}
+
 .about-section img {
     min-height: 20vw;
     height: 35vh;
@@ -220,7 +235,7 @@ header {
 .about-section p {
     max-width: 65vw;
     margin-left: 3vw;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 @media screen and (min-width: 900px) {
     .about-section p {
