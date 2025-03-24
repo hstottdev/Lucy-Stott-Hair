@@ -385,6 +385,7 @@ header {
     background-color: #e4e2dd;
     color: #db4a2b;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -399,13 +400,13 @@ header {
 
 #freyja-prices img{
     width: 20%;
-    margin: auto;
+    margin-top:auto;
 }    
 
-    #tiktok .tiktok-embed {
-        border-radius: 3vh;
-        margin-left: 1vh;
-    }
+#tiktok .tiktok-embed {
+    border-radius: 3vh;
+    margin-left: 1vh;
+}
 
 .hair-pics{
     width:100%;
