@@ -4,6 +4,12 @@
     font-style: normal;
 }
 
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,6 +19,7 @@ body {
     color: black;
     background-color: #c2b7af;
     margin: 0px 0px;
+    overflow-x: hidden;
 }
 
 header {
@@ -29,8 +36,15 @@ header {
     background-color: #e2d5cc;
 }
 
-#home-page-header a {
+
+.social-icons a {
     text-decoration: none;
+}
+
+.social-icons i{
+    font-size: 3.5vh;
+    color: #000000e5;
+    margin: 0vh 0.5vh;
 }
 
 #home-page-header i {
@@ -43,7 +57,11 @@ header {
     color: #00000085;
 }
 
-#home-page-header > *{
+.social-icons i:hover {
+    color: #00000085;
+}
+
+#home-page-header > * {
     margin: 2vh 3vh 2vh 3vh;
 }
 
@@ -86,6 +104,24 @@ header {
     justify-content: center;
     margin: 1vh 0vh 1vh 0vh;
     text-decoration: none;
+}
+
+.page-nav-button{
+    text-decoration: none;
+}
+
+.page-nav-button h2 {
+    font-size: 2.5vh;
+    padding: 2vh 2vh;
+    border: 0.5vh solid #585451;
+    border-radius: 2vh;
+    color: #585451;
+    text-align: center;
+}
+
+.page-nav-button h2:hover {
+    border: 0.5vh solid #000000;
+    color: #000000;
 }
 
 #side-bar a:hover {
@@ -157,9 +193,6 @@ header {
     text-align:center;
 }
 
-#book-now-button {
-
-}
 
 #book-now-button h1 {
     font-size: 4vh;
@@ -227,6 +260,12 @@ header {
     color: #191614be;
 }
 
+
+.about-section ul {
+    margin-left: 3vw;
+    font-size: 20px;
+}
+
 .about-section img {
     min-height: 20vw;
     height: 35vh;
@@ -244,18 +283,59 @@ header {
     .about-section p {
         font-size: 4vw;
     }
+
+    .about-section ul {
+        font-size: 4vw;
+    }
 }
 
 .about-section big {
     font-size: 3.5vh;
 }
 
-.price-carousel{
+#find-us-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#find-us address {
+    font-size: 18px;
+    text-align:center;
+}
+
+.business-hours {
+    height:45vh;
+    border: 0.5vh solid #9b928c;
+    border-radius: 2vh;
+    background-color: #e2d5cc;
+    margin: 2vh 1vh;
+    color: #5b5450;
+
     display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+}
+
+.business-hours table {
+    height: 25vh;
+    width: 36vh;
+    max-width: 90vw;
+}
+
+.business-hours td {
+    margin-left: 1vh;
+}
+
+.price-carousel {
+    display: flex;
     max-width: 100%;
     padding-bottom: 2vh;
-    overflow-x:scroll;
-    overflow-y:hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .prices-block {
@@ -288,11 +368,37 @@ header {
 }
 
 
-
-#tiktok .tiktok-embed{
-    border-radius: 3vh;
-    margin-left: 1vh;
+#freyja-prices {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
 }
+
+#freyja-prices .prices-block {
+    background-color: #e4e2dd;
+    color: #db4a2b;
+    display: flex;
+    flex-direction: column;
+}
+
+#freyja-prices th {
+    font-weight: 1000;
+}
+
+#freyja-prices h2 {
+    font-weight: 1000;
+}
+
+
+#freyja-prices img{
+    width: 20%;
+    margin: auto;
+}    
+
+    #tiktok .tiktok-embed {
+        border-radius: 3vh;
+        margin-left: 1vh;
+    }
 
 .hair-pics{
     width:100%;
