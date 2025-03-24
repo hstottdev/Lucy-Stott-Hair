@@ -332,6 +332,7 @@ header {
 
 .price-carousel {
     display: flex;
+    width: fit-content;
     max-width: 100%;
     padding-bottom: 2vh;
     overflow-x: scroll;
@@ -366,7 +367,13 @@ header {
     width: 100%;
     text-align: center;
 }
-
+.prices-block h3 {
+    font-size: 1.8vh;
+    width: 100%;
+    text-align: center;
+    font-weight: 1000;
+    margin-top: 0px;
+}
 
 #freyja-prices {
     font-family: "Archivo Black", sans-serif;
