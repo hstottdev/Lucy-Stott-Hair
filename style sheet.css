@@ -307,7 +307,7 @@ header {
 }
 
 .business-hours {
-    height:45vh;
+    padding: 2vh 1vw;
     border: 0.5vh solid #9b928c;
     border-radius: 2vh;
     background-color: #e2d5cc;
@@ -323,7 +323,7 @@ header {
 .business-hours table {
     height: 25vh;
     width: 36vh;
-    max-width: 90vw;
+    max-width: 80vw;
 }
 
 .business-hours td {
