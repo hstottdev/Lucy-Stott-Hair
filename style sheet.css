@@ -267,14 +267,14 @@ header {
 }
 
 .about-section img {
-    min-height: 20vw;
+    min-height: 15vw;
     height: 35vh;
     border-radius: 3vh;
     box-shadow: #45403c 1vh 1vh;
 }
 
 .about-section p {
-    max-width: 65vw;
+    max-width: 70vw;
     margin-left: 3vw;
     font-size: 20px;
 
