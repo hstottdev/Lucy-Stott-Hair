@@ -157,7 +157,7 @@ header {
 #landing-buttons{
     display:flex;
     max-width:100%;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
 }
 
@@ -170,8 +170,8 @@ header {
 }
 
 #landing-buttons img {
-    height: 50vh;
-    max-height: 70vw;
+    height: 45vh;
+    max-height: 65vw;
     width: 30vh;
     max-width: 40vw;
     border-radius: 3vh;
@@ -226,7 +226,7 @@ header {
 .gallery{
     width:70vw;
     display:flex;
-    overflow-x:scroll;
+    overflow-x:auto;
     overflow-y:hidden;
 }
 
@@ -335,7 +335,7 @@ header {
     width: fit-content;
     max-width: 100%;
     padding-bottom: 2vh;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
 }
 
@@ -411,7 +411,7 @@ header {
 .hair-pics{
     width:100%;
     display:flex;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
 }
 
