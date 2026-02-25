@@ -339,40 +339,43 @@ header {
     overflow-y: hidden;
 }
 
-.prices-block {
-    border: 1vh solid #9b928c;
-    background-color: #e2d5cc;
-    margin: 0vh 1vh;
-    color: #5b5450;
-}
+    .prices-block table {
+        width: 40vh;
+        max-width: 90vw;
+        border-spacing: 2vh;
+        font-size: 1.5vh;
+    }
 
-.prices-block table {
-    width: 40vh;
-    max-width: 90vw;
-    border-spacing: 2vh;
-    font-size: 1.5vh;
-}
+    .prices-block th {
+        text-align: left;
+        padding-right: 3vw;
+    }
 
-.prices-block th {
-    text-align: left;
-    padding-right: 3vw;
-}
+    .prices-block td {
+        text-align: center;
+    }
 
-.prices-block td {
-    text-align: center;
-}
+    .prices-block h2 {
+        font-size: 2.7vh;
+        width: 100%;
+        text-align: center;
+    }
+    .prices-block h3 {
+        font-size: 1.8vh;
+        width: 100%;
+        text-align: center;
+        font-weight: 1000;
+        margin-top: 0px;
+    }
 
-.prices-block h2 {
-    font-size: 2.7vh;
-    width: 100%;
-    text-align: center;
-}
-.prices-block h3 {
-    font-size: 1.8vh;
-    width: 100%;
-    text-align: center;
-    font-weight: 1000;
-    margin-top: 0px;
+.prices-block img {
+    height: 55vh;
+    max-height: 80vw;
+    width: 55vh;
+    max-width: 80vw;
+    border-radius: 3vh;
+    border: 0.5vh solid #9b928c;
+    margin: 1vh 1vh;
 }
 
 #freyja-prices {
