@@ -172,8 +172,6 @@ header {
 #landing-buttons img {
     height: 45vh;
     max-height: 65vw;
-    width: 30vh;
-    max-width: 40vw;
     border-radius: 3vh;
     border: 0.5vh solid #00000000;
     margin: 1vh 1vh;
